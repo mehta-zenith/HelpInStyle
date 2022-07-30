@@ -635,3 +635,11 @@ h6 {
 .d-flex {
     display: flex;
 }
+
+
+/* images */
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
