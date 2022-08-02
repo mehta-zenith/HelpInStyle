@@ -636,10 +636,40 @@ h6 {
     display: flex;
 }
 
+.d-grid {
+    display: grid;
+}
+
 
 /* images */
 
 .img-responsive {
     width: 100%;
     height: auto;
+}
+
+
+/* Button */
+
+
+/* default color black */
+
+.btn,
+.btn-block {
+    background-color: black;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.btn:hover,
+.btn-block:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
 }
