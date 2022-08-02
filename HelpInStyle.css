@@ -659,6 +659,7 @@ h6 {
     background-color: black;
     color: #fff;
     display: inline-block;
+    /* made it as inline-block so we can give width and height */
     border-radius: 5px;
     padding: 5px 15px;
 }
