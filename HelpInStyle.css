@@ -569,7 +569,8 @@ h6 {
 
 /* cols */
 
-.col-12 {
+.col-12,
+.container-fluid {
     width: 100%;
 }
 
