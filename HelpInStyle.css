@@ -675,3 +675,74 @@ h6 {
     display: block;
     width: 100%;
 }
+
+
+/* animations */
+
+
+/* The animation shorthand CSS property applies an animation between styles. 
+It is a shorthand for 
+animation-name, animation-duration, animation-timing-function, 
+animation-delay, animation-iteration-count, animation-direction, 
+animation-fill-mode, and animation-play-state.
+
+ */
+
+@keyframes animateFromLeft {
+    from {
+        left: -200px;
+    }
+    to {
+        left: 0;
+    }
+}
+
+@keyframes animateFromRight {
+    from {
+        right: -200px;
+    }
+    to {
+        right: 0;
+    }
+}
+
+@keyframes animateFromTop {
+    from {
+        top: -200px;
+    }
+    to {
+        top: 0;
+    }
+}
+
+@keyframes animateFromBottom {
+    from {
+        bottom: -200px;
+    }
+    to {
+        bottom: 0;
+    }
+}
+
+.animateFromLeft,
+.animateFromRight,
+.animateFromTop,
+.animateFromBottom {
+    position: relative;
+    animation: animateFromLeft 3s 1s;
+    /* animation-name animation-duration animation-delay
+    by default animation=iteration-count is 1 
+    */
+}
+
+.animateFromTop {
+    animation: animateFromTop 3s 1s;
+}
+
+.animateFromBottom {
+    animation: animateFromBottom 3s 1s;
+}
+
+.animateFromRight {
+    animation: animateFromRight 3s 1s;
+}
