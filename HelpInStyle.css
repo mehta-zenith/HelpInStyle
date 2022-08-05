@@ -746,3 +746,18 @@ animation-fill-mode, and animation-play-state.
 .animateFromRight {
     animation: animateFromRight 3s 1s;
 }
+
+
+/* positions */
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.pos-fixed {
+    position: fixed;
+}
